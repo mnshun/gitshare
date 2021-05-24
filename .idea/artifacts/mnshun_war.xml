@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mnshun:war">
+    <output-path>$PROJECT_DIR$/mnshun/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mnshun</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mnshun.war">
+      <element id="artifact" artifact-name="mnshun:war exploded" />
+    </root>
+  </artifact>
+</component>
